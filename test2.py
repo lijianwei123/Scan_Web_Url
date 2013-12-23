@@ -11,6 +11,9 @@ http://zoomq.qiniudn.com/ZQScrapBook/ZqFLOSS/data/20100812111528/
 
 api:
 http://timgolden.me.uk/pywin32-docs/win32_modules.html
+
+py2exe
+http://www.cnblogs.com/jans2002/archive/2006/09/30/519393.html
 '''
 
 

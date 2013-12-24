@@ -10,7 +10,6 @@ http://blog.csdn.net/dyx1024/article/details/7335085
 import pythoncom
 import pyHook
 import time
-import pyhk
 import os
 import sys
 import ctypes

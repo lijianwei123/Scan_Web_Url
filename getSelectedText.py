@@ -69,12 +69,9 @@ def GetCaretWindowText(hWndCaret, Selected = False): # As String
 
     return txt
 
-def testP():
-    print get_selected_text_from_front_window()
-    
-def t():
-    print "lijianwei"
+def getSelectedText():
+    return get_selected_text_from_front_window()
     
 if __name__ == '__main__':
-    test()
+    getSelectedText()
    

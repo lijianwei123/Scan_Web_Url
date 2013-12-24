@@ -37,9 +37,14 @@ def throw_phone():
 def postText(text):
     if not text.strip():
         return False
+    elif not schemeUrl(text):
+        return False
     else:
         form_data = {"text": convertUtf8(text)};
         return post(**form_data)
+    
+def schemeUrl(text):
+    return text.find("://") != -1
         
 def post(**kargs):
     url = "http://localhost/record.php"
